@@ -1,0 +1,48 @@
+//SETTINGS FOR CAROUSEL
+.none {
+  opacity: 0;
+}
+.thumbs {
+  display: none;
+}
+.carousel .slide {
+  background: #ffffff;
+  margin: 0 7px;
+  //width: 540px;
+}
+.carousel .carousel-status {
+  display: none;
+}
+.carousel .slider-wrapper {
+    width: 25em;
+}
+.carousel .control-dots {
+  position: absolute;
+  margin: 0px;
+}
+.slide {
+  width: 100px;
+  height: 420px;
+  font-size: 10px;
+}
+.carousel .control-dots .dot {
+  background: grey;
+  outline: none;
+}
+.carousel .carousel-slider .control-arrow {
+  color: black;
+}
+
+
+// LIBRARY STYLES
+// .slick-slider {
+//     margin: 20px;
+//     border: 1px solid green;
+// }
+// .slick-arrow {
+//     font-size: 20px;
+// }
+// .slick-prev::before, .slick-next::before {
+//     font-size: 45px;
+//     color: #404040;
+// }
