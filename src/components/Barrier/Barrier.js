@@ -13,19 +13,22 @@ class Barrier extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: []
+      data: null,
+      isChecked: false
     };
   }
   componentDidMount() {}
-  handleChange = event => {};
+  handleChange = event => {
+    event.preventDefault()
+    this.setState({ [event.target.id]: event.target.value })
+  };
   render() {
-    //const { data } = this.state;
     return (
       <div className='wrapper'>
 
         {/** ================ BLOCK IN HEADER ================ */}
 
-        <div className='slider'>
+        <header className='slider'>
           <div className='slider-block slider-block-one'>
             <img src={photo} className='slider-block__photo-header' alt='' />
             <p>Компактные турникеты серии STR</p>
@@ -42,7 +45,7 @@ class Barrier extends React.Component {
             <img src={photo} className='slider-block__photo-header' alt='' />
             <p>Тумбовые турникеты серии STX</p>
           </div>
-        </div>
+        </header>
 
         {/** ================ MAIN INFO ================ */}
 
