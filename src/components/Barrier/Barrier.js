@@ -28,19 +28,19 @@ class Barrier extends React.Component {
         <div className='slider'>
           <div className='slider-block slider-block-one'>
             <img src={photo} className='slider-block__photo-header' alt='' />
-            <span style={{'padding': '10px'}}>Компактные турникеты серии STR</span>
+            <p>Компактные турникеты серии STR</p>
           </div>
           <div className='slider-block slider-block-two'>
             <img src={photo} className='slider-block__photo-header' alt='' />
-            <span style={{'padding': '10px'}}>Тумбовые турникеты серии STR</span>
+            <p>Тумбовые турникеты серии STR</p>
           </div>
           <div className='slider-block slider-block-three'>
             <img src={photo} className='slider-block__photo-header' alt='' />
-            <span style={{'padding': '10px'}}>Компактные турникеты серии STX</span>
+            <p>Компактные турникеты серии STX</p>
           </div>
           <div className='slider-block slider-block-four'>
             <img src={photo} className='slider-block__photo-header' alt='' />
-            <span style={{'padding': '10px'}}>Тумбовые турникеты серии STX</span>
+            <p>Тумбовые турникеты серии STX</p>
           </div>
         </div>
 
@@ -52,80 +52,80 @@ class Barrier extends React.Component {
             </div>
             <div className='main-right__block'>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-one" /><label for="switch-one"></label>
+                    <div>
                       Универсальный сетевой контроллер EP-2000
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-two" /><label for="switch-two"></label>
+                    <div>
                       RFID идентификаторы EMMarin 125 kHz
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-three" /><label for="switch-three"></label>
+                    <div>
                       RFID идентификаторы Mifare 13,56 MHz
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-four" /><label for="switch-four"></label>
+                    <div>
                       Биометрическая идентификация по отпечаткам пальцев
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-five" /><label for="switch-five"></label>
+                    <div>
                       Информационный дисплей учета рабочего времени
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-six" /><label for="switch-six"></label>
+                    <div>
                       Контроль разовых посещений по 2D штрих-кодам
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-seven" /><label for="switch-seven"></label>
+                    <div>
                       Гостевой доступ по 2D штрих-кодам
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
                     </div>
                 </div>
                 <div className='main-right__block-wrapper-select'>
-                    <input type="checkbox" id="switch" /><label for="switch"></label>
-                    <div style={{'padding': '15px 0'}}>
+                    <input type="checkbox" id="switch-eight" /><label for="switch-eight"></label>
+                    <div>
                       Корпус кожуха из нержавеющей стали
-                      <p style={{'font-size': '15px', 'opacity': '0.5'}}>
+                      <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
                       </p>
