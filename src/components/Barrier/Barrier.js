@@ -17,7 +17,10 @@ class Barrier extends React.Component {
     };
   }
   componentDidMount() {}
-  handleChange = event => {};
+  handleChange = event => {
+    event.preventDefault()
+    this.setState({ [event.target.id]: event.target.value })
+  };
   render() {
     //const { data } = this.state;
     return (

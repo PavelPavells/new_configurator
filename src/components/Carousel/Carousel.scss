@@ -7,23 +7,28 @@
 }
 .carousel .slide {
   background: #ffffff;
-  margin: 0 7px;
-  //width: 540px;
+  //margin: 0 7px;
+  //border: 1px solid red;
+  min-width: 285px;
+    /* font-size: 13px; */
+    margin: 0 40px;
 }
 .carousel .carousel-status {
   display: none;
 }
 .carousel .slider-wrapper {
     width: 25em;
+    //border: 1px solif green;
 }
 .carousel .control-dots {
   position: absolute;
   margin: 0px;
 }
 .slide {
-  width: 100px;
-  height: 420px;
+  //width: 150px;
+  height: 380px;
   font-size: 10px;
+  //border: 1px solif green;
 }
 .carousel .control-dots .dot {
   background: grey;
