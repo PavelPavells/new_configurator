@@ -22,7 +22,7 @@
 }
 .carousel .control-dots {
   position: absolute;
-  margin: 0px;
+  margin-left: 2em;
 }
 .slide {
   //width: 150px;
@@ -39,15 +39,15 @@
 }
 
 
-// LIBRARY STYLES
-// .slick-slider {
-//     margin: 20px;
-//     border: 1px solid green;
-// }
-// .slick-arrow {
-//     font-size: 20px;
-// }
-// .slick-prev::before, .slick-next::before {
-//     font-size: 45px;
-//     color: #404040;
-// }
+//LIBRARY STYLES
+.slick-slider {
+    margin: 20px;
+    border: 1px solid green;
+}
+.slick-arrow {
+    font-size: 20px;
+}
+.slick-prev::before, .slick-next::before {
+    font-size: 45px;
+    color: #404040;
+}
