@@ -1,5 +1,7 @@
 import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import { Carousel } from 'react-responsive-carousel';
 import photo_carousel from '../../images/turnstile_str_compact.png'
 import './Carousel.scss'
@@ -28,4 +30,16 @@ class Slider extends React.Component {
         )
     }
 }
-export default Slider
+Slider.propTypes = {
+    data: PropTypes.array,
+    errors: PropTypes.object
+}
+const mapStateToProps = state => ({
+    data: state.data,
+    errors: state.errors
+})
+export default connect(
+    mapStateToProps,
+    null
+)(Slider)
+//export default Slider

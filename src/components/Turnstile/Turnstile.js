@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
 import './Turnstile.scss';
 
 class Turnstile extends React.Component {
@@ -21,4 +23,15 @@ class Turnstile extends React.Component {
         )
     }
 }
-export default Turnstile
+Turnstile.propTypes = {
+    data: PropTypes.array,
+    errors: PropTypes.object
+}
+const mapStateToProps = state => ({
+    data: state.data,
+    errors: state.errors
+})
+export default connect(
+    mapStateToProps,
+    null
+)(Turnstile)

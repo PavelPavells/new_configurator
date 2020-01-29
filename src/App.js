@@ -1,20 +1,26 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Provider } from 'react-redux';
+import store from './store';
 import Turnstile from './components/Turnstile/Turnstile';
-import Barrier from './components/Barrier/Barrier'
+import Barrier from './components/Barrier/Barrier';
 import './App.css';
 
-function App() {
-  return (
-    <Router>
-      <div className="App">
-        <Switch>
-          <Route path={`/turnstile`} component={Turnstile} />
-          <Route path={`/barrier/`} component={Barrier} />
-        </Switch>
-      </div>
-    </Router>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Provider store={store}>
+        <Router>
+          <div className="App">
+            <Switch>
+              <Route path={`/turnstile`} component={Turnstile} />
+              <Route path={`/barrier`} component={Barrier} />
+            </Switch>
+          </div>
+        </Router>
+      </Provider>
+    );
+  }
 }
 
 export default App;
