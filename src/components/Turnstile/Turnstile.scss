@@ -1,6 +1,189 @@
-.wrapper-turnstile {
+// MAIN WRAPPER
+
+.wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-}
+  
+  //  ===========   BLOCK HEADER  ===========  //
+  
+    .slider {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 88%;
+      margin-top: 10px;
+      text-align: center;
+  
+      .slider-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+        //width: 260px;
+        border: 1px solid #404040;
+        outline: none;
+  
+        .slider-block__photo-header {
+          //width: 180px;
+          height: 180px;
+          padding-top: 14px;
+        }
+  
+        p {
+          width: 70%;
+          min-width: 180px;
+          font-size: 15px;
+        }
+  
+        &:hover {
+          box-shadow: 0 0 8px 5px #b2b2b2;
+          transition: all 0.3s ease-in-out;
+          border: none;
+        }
+        span {
+          padding: 0 15 px;
+        }
+      }
+    }
+  
+    //  ===========   BLOCK MAIN  ===========  //
+  
+    .main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: self-start;
+      width: 88%;
+      margin-top: 2%;
+  
+      .main-right__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        min-width: 320px;
+        padding: 15px 0 15px 15px;
+  
+        .main-right__block-wrapper-select {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-start;
+          align-items: center;
+          //height: auto;
+          margin: 10px 0;
+          border: 1px solid black;
+  
+          & > span {
+            font-size: 14px;
+          }
+          & > div {
+            padding: 15px 0;
+          }
+          & > div > p {
+            font-size: 15px;
+            opacity: 0.5;
+          }
+          &:hover {
+              transform: translateY(3px);
+              transition: all 0.2s ease-in-out;
+              border: 1px solid #b3b3b3;
+              cursor: pointer;        
+          }
+        }
+  
+  //  ===========  START CHECKBOXES STYLE  ===========  //
+  
+        input[type="checkbox"] {
+          height: 0;
+          width: 0;
+          visibility: hidden;
+        }
+  
+        label {
+          cursor: pointer;
+          text-indent: -9999px;
+          width: 50px;
+          min-width: 50px;
+          height: 25px;
+          margin-right: 5%;
+          background: #404040;
+          display: block;
+          border-radius: 100px;
+          position: relative;
+        }
+  
+        label:after {
+          content: "";
+          position: absolute;
+          top: 2px;
+          left: 3px;
+          width: 21px;
+          height: 21px;
+          background: #fff;
+          border-radius: 90px;
+          transition: 0.3s;
+        }
+  
+        input:checked + label {
+          background: #bb3030;
+        }
+  
+        input:checked + label:after {
+          left: calc(100% - 2px);
+          transform: translateX(-100%);
+        }
+  
+  //  ===========  END CHECKBOXES STYLE  ===========  //
+  
+      }
+      .main-left__block {
+        display: flex;
+        position: sticky;
+        top: 100px;
+        width: 100%;
+        margin-top: 3%;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+      }
+    }
+    .main-block__variation {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 15% 0;
+  
+      & > ul {
+        width: 100%;
+      }
+  
+      & > ul > li {
+        padding: 15px;
+        //border: 1px solid #404040;
+        list-style: circle;
+      }
+    }
+    .footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      width: 100%;
+      height: 20vh;
+      background-color: #f5f5f5;
+      border-top: 1px solid #dddddd;
+  
+      & > div {
+        color: #404040;
+        font-size: 30px;
+        width: 23%;
+      }
+    }
+  }

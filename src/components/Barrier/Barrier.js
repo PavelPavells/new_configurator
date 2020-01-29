@@ -1,14 +1,10 @@
 import React from "react";
-//import "slick-carousel/slick/slick.css";
-//import "slick-carousel/slick/slick-theme.css";
-//import Slider from "react-slick";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
+//import { getDataBarrier } from '../../actions/actions_barrier';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-//import { Carousel } from 'react-responsive-carousel';
 import Slider from "../Carousel/Carousel";
 import photo from "../../images/turnstile_str_compact.png";
-//import photo_carousel from '../../images/turnstile_str_compact.png'
 import "./Barrier.scss";
 
 class Barrier extends React.Component {
@@ -22,25 +18,18 @@ class Barrier extends React.Component {
   componentDidMount() {}
   handleChange = event => {
     event.preventDefault();
-    this.setState({ [event.target.id]: event.target.value });
+    this.setState({ [event.target.id]: event.taget.value });
   };
   render() {
     return (
-      <div className="wrapper">
+      <div className="wrapper-turnstile">
+        
         {/** ================ BLOCK IN HEADER ================ */}
 
         <header className="slider">
           <div className="slider-block slider-block-one">
             <img src={photo} className="slider-block__photo-header" alt="" />
             <p>Компактные турникеты серии STR</p>
-          </div>
-          <div className="slider-block slider-block-two">
-            <img src={photo} className="slider-block__photo-header" alt="" />
-            <p>Тумбовые турникеты серии STR</p>
-          </div>
-          <div className="slider-block slider-block-three">
-            <img src={photo} className="slider-block__photo-header" alt="" />
-            <p>Компактные турникеты серии STX</p>
           </div>
           <div className="slider-block slider-block-four">
             <img src={photo} className="slider-block__photo-header" alt="" />
@@ -170,7 +159,7 @@ class Barrier extends React.Component {
           </div>
         </main>
         <footer className='footer'>
-          <div>666 666.00 руб</div>
+          <div>452 298.43 руб</div>
         </footer>
       </div>
     );
@@ -184,4 +173,7 @@ const mapStateToProps = state => ({
   data: state.data,
   errors: state.errors
 });
-export default connect(mapStateToProps, null)(Barrier);
+export default connect(
+  mapStateToProps, 
+  null
+)(Barrier);

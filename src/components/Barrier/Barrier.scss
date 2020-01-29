@@ -1,6 +1,6 @@
 // MAIN WRAPPER
 
-.wrapper {
+.wrapper-turnstile {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -20,21 +20,21 @@
     .slider-block {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: center;
       margin-right: 5px;
-      //width: 260px;
+      width: 50%;
       border: 1px solid #404040;
       outline: none;
 
       .slider-block__photo-header {
-        width: 180px;
+        //width: 180px;
         height: 180px;
         padding-top: 14px;
       }
 
       p {
-        width: 70%;
+        //width: 70%;
         min-width: 180px;
         font-size: 15px;
       }
@@ -74,7 +74,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        height: auto;
+        //height: auto;
         margin: 10px 0;
         border: 1px solid black;
 
@@ -111,7 +111,7 @@
         min-width: 50px;
         height: 25px;
         margin-right: 5%;
-        background: grey;
+        background: #404040;
         display: block;
         border-radius: 100px;
         position: relative;
@@ -144,7 +144,7 @@
     .main-left__block {
       display: flex;
       position: sticky;
-      top: 10px;
+      top: 100px;
       width: 100%;
       margin-top: 3%;
       flex-direction: row;
