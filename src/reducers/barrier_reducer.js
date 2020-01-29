@@ -1,10 +1,10 @@
-import { GET_DATA } from '../actions/types';
+import { GET_DATA_BARRIER } from '../actions/types';
 const initialState = {
     data: []
 }
 export default function(state = initialState, action) {
-    switch(action.payload) {
-        case GET_DATA:
+    switch(action.type) {
+        case GET_DATA_BARRIER:
             return {
                 ...state,
                 data: action.payload
