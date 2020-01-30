@@ -60,10 +60,8 @@ class Turnstile extends React.Component {
               <div>
                 Универсальный сетевой контроллер EP-2000
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -73,10 +71,8 @@ class Turnstile extends React.Component {
               <div>
                 RFID идентификаторы EMMarin 125 kHz
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -86,10 +82,8 @@ class Turnstile extends React.Component {
               <div>
                 RFID идентификаторы Mifare 13,56 MHz
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -99,10 +93,8 @@ class Turnstile extends React.Component {
               <div>
                 Биометрическая идентификация по отпечаткам пальцев
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -112,10 +104,8 @@ class Turnstile extends React.Component {
               <div>
                 Информационный дисплей учета рабочего времени
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -125,10 +115,8 @@ class Turnstile extends React.Component {
               <div>
                 Контроль разовых посещений по 2D штрих-кодам
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -138,10 +126,8 @@ class Turnstile extends React.Component {
               <div>
                 Гостевой доступ по 2D штрих-кодам
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>
@@ -151,10 +137,8 @@ class Turnstile extends React.Component {
               <div>
                 Корпус кожуха из нержавеющей стали
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat
+                  Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
+                  Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
                 </p>
               </div>
             </div>

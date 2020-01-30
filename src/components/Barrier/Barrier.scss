@@ -28,13 +28,11 @@
       outline: none;
 
       .slider-block__photo-header {
-        //width: 180px;
         height: 180px;
         padding-top: 14px;
       }
 
       p {
-        //width: 70%;
         min-width: 180px;
         font-size: 15px;
       }
@@ -74,7 +72,6 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
-        //height: auto;
         margin: 10px 0;
         border: 1px solid black;
 
@@ -166,7 +163,6 @@
 
     & > ul > li {
       padding: 15px;
-      //border: 1px solid #404040;
       list-style: circle;
     }
   }
