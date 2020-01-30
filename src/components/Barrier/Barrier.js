@@ -144,7 +144,7 @@ class Barrier extends React.Component {
           </div>
         </main>
         <footer className='footer'>
-          <div><strong>452 298.43 руб</strong></div>
+          <div><strong>Стоимость оборудования: 452 298.43 руб</strong></div>
         </footer>
       </div>
     );

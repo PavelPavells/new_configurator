@@ -153,7 +153,7 @@ class Turnstile extends React.Component {
           </div>
         </main>
         <footer className='footer'>
-          <div><strong>666 666.00 руб</strong></div>
+          <div><strong>Стоимость оборудования: 452 298.43 руб</strong></div>
         </footer>
       </div>
     );
