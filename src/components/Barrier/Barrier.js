@@ -30,11 +30,11 @@ class Barrier extends React.Component {
         <header className="slider">
           <div className="slider-block slider-block-one">
             <img src={photo} className="slider-block__photo-header" alt="" />
-            <p>Компактные турникеты серии STR</p>
+            <p><strong>Компактные турникеты серии STR</strong></p>
           </div>
           <div className="slider-block slider-block-four">
             <img src={photo} className="slider-block__photo-header" alt="" />
-            <p>Тумбовые турникеты серии STX</p>
+            <p><strong>Тумбовые турникеты серии STX</strong></p>
           </div>
         </header>
 
@@ -49,7 +49,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-one" />
               <label htmlFor="switch-one"></label>
               <div>
-                Универсальный сетевой контроллер EP-2000
+                <strong>Универсальный сетевой контроллер EP-2000</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -60,7 +60,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-two" />
               <label htmlFor="switch-two"></label>
               <div>
-                RFID идентификаторы EMMarin 125 kHz
+                <strong>RFID идентификаторы EMMarin 125 kHz</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -71,7 +71,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-three" />
               <label htmlFor="switch-three"></label>
               <div>
-                RFID идентификаторы Mifare 13,56 MHz
+                <strong>RFID идентификаторы Mifare 13,56 MHz</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -82,7 +82,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-four" />
               <label htmlFor="switch-four"></label>
               <div>
-                Биометрическая идентификация по отпечаткам пальцев
+                <strong>Биометрическая идентификация по отпечаткам пальцев</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -93,7 +93,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-five" />
               <label htmlFor="switch-five"></label>
               <div>
-                Информационный дисплей учета рабочего времени
+                <strong>Информационный дисплей учета рабочего времени</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -104,7 +104,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-six" />
               <label htmlFor="switch-six"></label>
               <div>
-                Контроль разовых посещений по 2D штрих-кодам
+                <strong>Контроль разовых посещений по 2D штрих-кодам</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -115,7 +115,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-seven" />
               <label htmlFor="switch-seven"></label>
               <div>
-                Гостевой доступ по 2D штрих-кодам
+                <strong>Гостевой доступ по 2D штрих-кодам</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -126,7 +126,7 @@ class Barrier extends React.Component {
               <input type="checkbox" id="switch-eight" />
               <label htmlFor="switch-eight"></label>
               <div>
-                Корпус кожуха из нержавеющей стали
+                <strong>Корпус кожуха из нержавеющей стали</strong>
                 <p>
                   Идейные соображения высшего порядка, а также консультация с широким активом позволяет выполнять важные задания по разработке новых предложений. 
                   Не следует, однако забывать, что консультация с широким активом позволяет оценить значение новых предложений.
@@ -135,16 +135,16 @@ class Barrier extends React.Component {
             </div>
             <div className="main-block__variation">
               <ul>
-                <li>Корпус кожуха из нержавеющей стали</li>
-                <li>Гостевой доступ по 2D штрих-кодам</li>
-                <li>Контроль разовых посещений по 2D штрих-кодам</li>
-                <li>RFID идентификаторы EMMarin 125 kHz</li>
+                <li><strong>Корпус кожуха из нержавеющей стали</strong></li>
+                <li><strong>Гостевой доступ по 2D штрих-кодам</strong></li>
+                <li><strong>Контроль разовых посещений по 2D штрих-кодам</strong></li>
+                <li><strong>RFID идентификаторы EMMarin 125 kHz</strong></li>
               </ul>
             </div>
           </div>
         </main>
         <footer className='footer'>
-          <div>452 298.43 руб</div>
+          <div><strong>452 298.43 руб</strong></div>
         </footer>
       </div>
     );
