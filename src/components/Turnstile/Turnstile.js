@@ -87,7 +87,7 @@ class Turnstile extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="main-right__block-wrapper-select">
+            <div className="main-right__block-wrapper-select"> 
               <input type="checkbox" id="switch-four" />
               <label htmlFor="switch-four"></label>
               <div>
